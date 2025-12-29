@@ -21,10 +21,10 @@ This project showcases how digital signatures work in blockchain systems **witho
 ## 🖥️ Application Preview
 
 ### 🔹 Message Signing
-![Sign Message](screenshots/sign-message.png)
+![Sign Message](Screenshots/sign-message.png)
 
 ### 🔹 Signature Verification
-![Verify Signature](screenshots/verify-signature.png)
+![Verify Signature](Screenshots/verify-message.png)
 
 ---
 
