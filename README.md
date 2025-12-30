@@ -1,22 +1,66 @@
-# 🔐 Digital Signature Verification Using MetaMask (Ethereum)
+## 🔐 Digital Signature Verification Using MetaMask & Blockchain
 
-A modern **React-based decentralized application (DApp)** that demonstrates  
-**message signing and signature verification** using **MetaMask** and **Ethereum cryptography (ECDSA)**.
+A blockchain-based digital signature verification system built using React, Ethereum cryptography, and the MetaMask cryptocurrency wallet.
+This project demonstrates how secure message signing and verification can be achieved using public-key cryptography (ECDSA) without exposing private keys or relying on centralized authorities.
 
-This project showcases how digital signatures work in blockchain systems **without exposing private keys**, making it ideal for **authentication, verification, and security demos**.
+This project was developed as part of a **Final Year Engineering Project** and is suitable for academic submission, portfolio showcase, and Web3 learning.
+
+---
+
+## 📌 Problem Statement
+Traditional digital signature verification systems are often:
+- Centralized and opaque
+- Dependent on trusted third parties
+- Costly for end users
+- Vulnerable to forgery and identity fraud
+With the exponential growth of digital transactions, forged signatures and identity fraud have become major security concerns in legal, financial, and governmental systems.
+
+> ### _**In 2020, _India recorded a 141% increase in identity fraud, resulting in losses of nearly ₹1.85 trillion, highlighting the urgent need for stronger and verifiable_**_
+
+This project addresses these issues by implementing blockchain-based digital signature verification using MetaMask, enabling free, transparent, and tamper-resistant validation.
+
+
+## 🎯 Objectives
+- To implement digital signature generation and verification
+- To demonstrate authentication, integrity, and non-repudiation
+- To eliminate dependency on paid, off-chain verification services
+- To securely verify signatures using Ethereum public keys
+- To provide a clean and user-friendly UI for signing and verification
 
 ---
 
-## ✨ Features
+## 🧩 Methodology
+The digital signature process consists of two main phases:
 
-- ✍️ Sign arbitrary messages using **MetaMask**
-- 🔎 Verify Ethereum signatures using **ECDSA (secp256k1)**
-- 👤 Recover signer address from the signed message
-- 🔐 No private key handling — keys stay securely inside MetaMask
-- ⚡ Fully client-side (no backend required)
-- 🎨 Clean, professional UI suitable for demos & portfolios
+🔹 1. Signing Phase
+- User enters a message
+- Message is hashed using a cryptographic hash function
+- Hash is signed using the private key stored securely in MetaMask
+- A digital signature is generated and returned to the application
+
+🔹 2. Verification Phase
+- Signature and original message are provided
+- Public key (Ethereum address) is recovered from the signature
+- Message hash is recomputed
+- Signature validity is verified by comparing hashes
+- This ensures message authenticity and integrity.
+---
+## 🔐 Cryptography & Security Design
+- Signature Algorithm: ECDSA (Elliptic Curve Digital Signature Algorithm)
+- Elliptic Curve: secp256k1 (Ethereum standard)
+- Hashing: Cryptographic hash for fixed-length message digest
+- Key Management:
+  - Private keys never leave MetaMask
+  - Only public keys are used for verification
+
+## 🔒 Security Guarantees
+- Authentication of the signer
+- Integrity of the message
+- Non-repudiation
+- Resistance to forgery and tampering
 
 ---
+
 
 ## 🖥️ Application Preview
 
