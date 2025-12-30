@@ -155,8 +155,9 @@ public/
 
 ## 👨‍💻 Author
 
-Chetan Meshram
-Mtech IT IIITA Student | Blockchain & Cryptography Enthusiast
+## **Chetan Meshram**
+
+**Mtech IT IIITA Student | Blockchain & Cryptography Enthusiast**
 
 🔗 GitHub: https://github.com/chetanmeshram10
 
